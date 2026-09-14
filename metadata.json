@@ -1,0 +1,7 @@
+{
+  "name": "The Vault",
+  "description": "Aristocratic financial education, net worth tracking, interactive bank slips, gold coin accumulation, and executive wealth mentorship.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
