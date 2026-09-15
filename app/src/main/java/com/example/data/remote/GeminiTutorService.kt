@@ -102,7 +102,7 @@ class GeminiTutorService {
         }
 
         try {
-            val url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=$apiKey"
+               val url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent"
 
             val contentsArray = JSONArray()
 
@@ -140,6 +140,7 @@ class GeminiTutorService {
 
             val request = Request.Builder()
                 .url(url)
+                .header("x-goog-api-key", apiKey)
                 .post(requestBody)
                 .build()
 
